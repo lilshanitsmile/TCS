@@ -1836,12 +1836,12 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Imagenes\avatar.png" />
     <Content Include="Imagenes\carrusel1.jpg" />
     <Content Include="Imagenes\carrusel3.jpg" />
     <Content Include="Imagenes\carrusel4.jpg" />
-    <Content Include="Imagenes\logo.png" />
-    <Content Include="Imagenes\tienda.png" />
-    <Content Include="Imagenes\tiendalogo.png" />
+    <Content Include="Imagenes\gorilas.jpg" />
+    <Content Include="Imagenes\team.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
