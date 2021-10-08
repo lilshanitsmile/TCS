@@ -11,3 +11,10 @@ C:\Users\Alexiis\Desktop\TCS\RaizProyecto\VentasWeb\CapaModelo\obj\Debug\CapaMod
 C:\Users\Alexiis\Desktop\TCS\RaizProyecto\VentasWeb\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
 C:\Users\Alexiis\Desktop\TCS\RaizProyecto\VentasWeb\CapaModelo\obj\Debug\CapaModelo.dll
 C:\Users\Alexiis\Desktop\TCS\RaizProyecto\VentasWeb\CapaModelo\obj\Debug\CapaModelo.pdb
+C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\CapaModelo\bin\Debug\CapaModelo.dll.config
+C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\CapaModelo\obj\Debug\CapaModelo.pdb
