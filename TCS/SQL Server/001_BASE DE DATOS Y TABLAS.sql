@@ -93,7 +93,7 @@ go
 if not exists (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'PROVEEDOR')
 create table PROVEEDOR(
 IdProveedor int primary key identity(1,1),
-RUC varchar(50),
+codproveedor varchar(50),
 RazonSocial varchar(100),
 Telefono varchar(50),
 Correo varchar(50),

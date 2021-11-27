@@ -45,10 +45,13 @@ INSERT INTO TIENDA(Nombre,RUC,Direccion,Telefono) VALUES ('Tienda 001','25689789
 GO
 --REGISTROS USUARIO
 insert into usuario(Nombres,Apellidos,Correo,Clave,IdTienda,IdRol)
-values('Administrador','Thopsom','admin@gmail.com','7932b2e116b076a54f452848eaabd5857f61bd957fe8a218faf216f24c9885bb',(select TOP 1 IdTienda from TIENDA where Nombre = 'Tienda 001'),(select TOP 1 IdRol from ROL where Descripcion = 'ADMINISTRADOR'))
+values('Empleado','Thopsom','alexis@gmail.com','1111',(select TOP 1 IdTienda from TIENDA where Nombre = 'Tienda 001'),(select TOP 2 IdRol from ROL where Descripcion = 'EMPLEADO'))
 go
+
 insert into usuario(Nombres,Apellidos,Correo,Clave,IdTienda,IdRol)
-values('Tienda','azgun','tienda@gmail.com','29cfa0f8e37e40a1a7a723aa88eca2cc050f270417969bfbe753f6bc0919aefe',(select TOP 1 IdTienda from TIENDA where Nombre = 'Tienda 001'),(select TOP 1 IdRol from ROL where Descripcion = 'EMPLEADO'))
+values('Administrador','Thopsom','jefer@gmail.com','1234',(select TOP 1 IdTienda from TIENDA where Nombre = 'Tienda 001'),(select TOP 1 IdRol from ROL where Descripcion = 'ADMINISTRADOR'))
+go
+
 
 
 GO
@@ -129,27 +132,27 @@ RIGHT('000000' + convert(varchar(max),(select isnull(max(ValorCodigo),0) + 1 fro
 
 go
 Insert into cliente(tipodocumento,numerodocumento,nombre,direccion,telefono) values 
-('DNI','34231223','Jose Perez','av. Test 123','12345342'),
-('DNI','56567878','Maria Paz','av. Test 124','12345343'),
-('DNI','78907878','Thalia Quiñon','av. Test 125','12345344'),
-('DNI','56346767','Belem Madara','av. Test 126','12345345'),
-('DNI','34234234','Teresa espinoza','av. Test 127','12345346'),
-('DNI','67788978','Arturo Sanchez','av. Test 128','12345347'),
-('DNI','34311232','Pere Calvo','av. Test 129','12345348'),
-('DNI','23234545','Naima Prat','av. Test 130','12345349'),
-('DNI','45234545','Nicole Barreiro','av. Test 131','12345350'),
-('DNI','23231212','Iratxe Ahmed','av. Test 132','12345351'),
-('DNI','67678990','Monserrat Ballester','av. Test 133','12345352'),
-('DNI','45455666','Alfonsa Mendoza','av. Test 135','12345354'),
-('DNI','65765888','Alex Ramon','av. Test 136','12345355'),
-('DNI','89768677','Pablo Rosell','av. Test 137','12345356'),
-('DNI','67676789','Sebastian Palomino','av. Test 138','12345357'),
-('DNI','76867878','Hamza Grau','av. Test 139','12345358'),
-('DNI','89934233','Faustino Romo','av. Test 140','12345359')
+('DUI','34231223','Jose Perez','av. Test 123','12345342'),
+('DUI','56567878','Maria Paz','av. Test 124','12345343'),
+('DUI','78907878','Thalia Quiñon','av. Test 125','12345344'),
+('DUI','56346767','Belem Madara','av. Test 126','12345345'),
+('DUI','34234234','Teresa espinoza','av. Test 127','12345346'),
+('DUI','67788978','Arturo Sanchez','av. Test 128','12345347'),
+('DUI','34311232','Pere Calvo','av. Test 129','12345348'),
+('DUI','23234545','Naima Prat','av. Test 130','12345349'),
+('DUI','45234545','Nicole Barreiro','av. Test 131','12345350'),
+('DUI','23231212','Iratxe Ahmed','av. Test 132','12345351'),
+('DUI','67678990','Monserrat Ballester','av. Test 133','12345352'),
+('DUI','45455666','Alfonsa Mendoza','av. Test 135','12345354'),
+('DUI','65765888','Alex Ramon','av. Test 136','12345355'),
+('DUI','89768677','Pablo Rosell','av. Test 137','12345356'),
+('DUI','67676789','Sebastian Palomino','av. Test 138','12345357'),
+('DUI','76867878','Hamza Grau','av. Test 139','12345358'),
+('DUI','89934233','Faustino Romo','av. Test 140','12345359')
 
 go
 
-insert into PROVEEDOR(ruc,RazonSocial,Telefono,Correo,Direccion) values
+insert into PROVEEDOR(codproveedor,RazonSocial,Telefono,Correo,Direccion) values
 ('25689789654','PROVEEDOR MANZANA 001','345234234','manzana@ma.com','av . las manzanas'),
 ('45623412312','PROVEEDOR PERA 001','123123456','pera@pe.co','av. las peras')
 
