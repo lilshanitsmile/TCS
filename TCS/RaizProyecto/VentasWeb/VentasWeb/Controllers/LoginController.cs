@@ -21,7 +21,7 @@ namespace VentasWeb.Controllers
         public ActionResult Index(string correo, string clave)
         {
 
-            Usuario ousuario = CD_Usuario.Instancia.ObtenerUsuarios().Where(u => u.Correo == correo && u.Clave == (clave) ).FirstOrDefault();
+            Usuario ousuario = CD_Usuario.Instancia.ObtenerUsuarios().Where(u => u.Correo == correo && u.Clave == (clave)).FirstOrDefault();
 
             if (ousuario == null)
             {

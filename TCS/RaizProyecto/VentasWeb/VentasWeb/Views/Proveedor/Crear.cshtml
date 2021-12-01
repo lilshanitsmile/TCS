@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Crear";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -30,8 +29,8 @@
                         <table id="tbdata" class="table table-striped table-bordered nowrap compact" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th>Id</th>
-                                    
+                                    <th>Codigo de Proveedor</th>
+                                    <th>Razon Social</th>
                                     <th>Telefono</th>
                                     <th>Correo</th>
                                     <th>Direccion</th>
@@ -62,13 +61,16 @@
                 <form id="form">
                     <input id="txtid" value="0" type="hidden" />
                     <div class="form-group row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label col-form-label-sm">RUC <span class="error"></span></label>
+                        <label for="staticEmail" class="col-sm-2 col-form-label col-form-label-sm">Codigo de Proveedor <span class="error"></span></label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control form-control-sm model" id="txtRuc" name="Id">
+                            <input type="text" class="form-control form-control-sm model" id="txtRuc" name="RUC">
                         </div>
                     </div>
-                   
-                        
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label col-form-label-sm">Razón Social <span class="error"></span></label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm model" id="txtRazonSocial" name="RazonSocial">
+                        </div>
                     </div>
                     <div class="form-group row">
                         <label for="staticEmail" class="col-sm-2 col-form-label col-form-label-sm">Telefono <span class="error"></span></label>

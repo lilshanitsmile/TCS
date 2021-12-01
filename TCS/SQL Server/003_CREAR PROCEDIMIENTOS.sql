@@ -432,14 +432,14 @@ go
 CREATE PROC usp_ObtenerTienda
 as
 begin
- select IdTienda,Nombre,RUC,Direccion,Telefono,Activo from TIENDA
+ select IdTienda,Nombre,codigodeproveedor,Direccion,Telefono,Activo from TIENDA
 end
 
 go
 --PROCEDIMIENTO PARA GUARDAR TIENDA
 CREATE PROC usp_RegistrarTienda(
 @Nombre varchar(50),
-@Ruc varchar(50),
+@codigodeproveedor varchar(50),
 @Direccion varchar(50),
 @Telefono varchar(50),
 @Resultado bit output
@@ -448,8 +448,8 @@ begin
 	SET @Resultado = 1
 	IF NOT EXISTS (SELECT * FROM TIENDA WHERE Nombre = @Nombre)
 
-		insert into TIENDA(Nombre,RUC,Direccion,Telefono) values (
-		@Nombre,@Ruc,@Direccion,@Telefono
+		insert into TIENDA(Nombre,codigodeproveedor,Direccion,Telefono) values (
+		@Nombre,@codigodeproveedor,@Direccion,@Telefono
 		)
 	ELSE
 		SET @Resultado = 0
@@ -461,7 +461,7 @@ go
 create procedure usp_ModificarTienda(
 @IdTienda int,
 @Nombre varchar(60),
-@Ruc varchar(60),
+@codigodeproveedor varchar(60),
 @Direccion varchar(60),
 @Telefono varchar(60),
 @Activo bit,
@@ -474,7 +474,7 @@ begin
 		
 		update TIENDA set 
 		Nombre = @Nombre,
-		RUC = @Ruc,
+		codigodeproveedor = @codigodeproveedor,
 		Direccion = @Direccion,
 		Telefono = @Telefono,
 		Activo = @Activo

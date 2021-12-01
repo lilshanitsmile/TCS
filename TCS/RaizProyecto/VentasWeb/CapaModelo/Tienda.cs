@@ -16,5 +16,6 @@ namespace CapaModelo
         public string Telefono { get; set; }
         public bool Activo { get; set; }
         public DateTime FechaRegistro { get; set; }
+        public string COD { get; set; }
     }
 }

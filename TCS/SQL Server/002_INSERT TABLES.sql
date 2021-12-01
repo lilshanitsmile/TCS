@@ -40,16 +40,16 @@ INSERT INTO SUBMENU(IdMenu,Nombre,Controlador,Vista,Icono) VALUES
 
 GO
 --REGISTROS EN TABLA TIENDA
-INSERT INTO TIENDA(Nombre,RUC,Direccion,Telefono) VALUES ('Tienda 001','25689789654','AV.GRANDE 123','963852896')
+INSERT INTO TIENDA(Nombre,codproveedor,Direccion,Telefono) VALUES ('Tienda 001','25689789654','AV.GRANDE 123','963852896')
 
 GO
 --REGISTROS USUARIO
 insert into usuario(Nombres,Apellidos,Correo,Clave,IdTienda,IdRol)
-values('Empleado','Thopsom','alexis@gmail.com','1111',(select TOP 1 IdTienda from TIENDA where Nombre = 'Tienda 001'),(select TOP 2 IdRol from ROL where Descripcion = 'EMPLEADO'))
+values('Empleado','alexsis','alexis@gmail.com','1111',(select TOP 1 IdTienda from TIENDA where Nombre = 'Tienda 001'),(select TOP 2 IdRol from ROL where Descripcion = 'EMPLEADO'))
 go
 
 insert into usuario(Nombres,Apellidos,Correo,Clave,IdTienda,IdRol)
-values('Administrador','Thopsom','jefer@gmail.com','1234',(select TOP 1 IdTienda from TIENDA where Nombre = 'Tienda 001'),(select TOP 1 IdRol from ROL where Descripcion = 'ADMINISTRADOR'))
+values('Administrador','alexander','jefer@gmail.com','1234',(select TOP 1 IdTienda from TIENDA where Nombre = 'Tienda 001'),(select TOP 1 IdRol from ROL where Descripcion = 'ADMINISTRADOR'))
 go
 
 
