@@ -29,6 +29,5 @@ C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\UnitTestProject
 C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.AssemblyReference.cache
 C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
-C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\USUARIO\Documents\GitHub\TCS\TCS\RaizProyecto\VentasWeb\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

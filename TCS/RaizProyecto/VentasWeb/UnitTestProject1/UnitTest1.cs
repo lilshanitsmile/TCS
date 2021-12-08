@@ -9,8 +9,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            string text1 = Converter.GetSHA256("admin@gmail.com");
-            string text2 = Converter.GetSHA256("tienda@gmail.com");
+            string text1 = Converter.GetSHA256("alexis@gmail.com");
+            string text2 = Converter.GetSHA256("jefer@gmail.com");
 
         }
     }
