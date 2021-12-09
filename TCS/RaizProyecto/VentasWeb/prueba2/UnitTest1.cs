@@ -18,9 +18,6 @@ namespace prueba2
 
             guardar = null;
 
-            
-
-
         }
     }
 }
