@@ -1836,6 +1836,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Imagenes\avatar.png" />
     <Content Include="Imagenes\basket.svg" />
     <Content Include="Imagenes\virtuemart.svg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
